@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Calcul Tarif</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Calcul Tarif</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ApplicationFunction"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ApplicationFunction" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-f70caeac1efe457a9185aa11ad636c8b">
+																	<td><a href="../views/id-f70caeac1efe457a9185aa11ad636c8b.html" target="view" title="Application - Composant - Moteur de tarifcation"> Application - Composant - Moteur de tarifcation </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-481140fc81f84fd791402f29692a696e">
+																	<td><a href="../views/id-481140fc81f84fd791402f29692a696e.html" target="view" title="Application - Usage du moteur de tartifcation"> Application - Usage du moteur de tartifcation </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-d86d8fe486b24888bc756f0553682465.html" target="element" title="W">W</a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f88d025d07b49bebf473b5f5d1a92f3.html" target="element"> Calcul Tarif</a></td>
+											<td><a href="../elements/id-eda78ae42f2f4da59e510368b7fc8642.html" target="element"> Tarif</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a5908ca1fa1b4924b044e4b0c3c44b70.html" target="element" title="R">R</a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f88d025d07b49bebf473b5f5d1a92f3.html" target="element"> Calcul Tarif</a></td>
+											<td><a href="../elements/id-2301745ec1e84b1e932ee2a1548ac7c2.html" target="element"> S&#233;ance</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-96214c718a0b44969854e0aa44028b80.html" target="element" title="R">R</a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f88d025d07b49bebf473b5f5d1a92f3.html" target="element"> Calcul Tarif</a></td>
+											<td><a href="../elements/id-7e364c074591497f83e14dfb2b7e69db.html" target="element"> R&#232;gles de calcul</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-77951e4c369f49eda1dec3d5ed5c69f8.html" target="element" title="R">R</a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-3f88d025d07b49bebf473b5f5d1a92f3.html" target="element"> Calcul Tarif</a></td>
+											<td><a href="../elements/id-fc3cb285ac4642b08c866779ce4db535.html" target="element"> Mat&#233;riel</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-2ebd49acefbf4a3fb41d7a5f7cb16212.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssignmentRelationship" /></td>
+											<td><a href="../elements/id-a9b94491584f4f85beeeb5e6fd6a3abf.html" target="element"> &lt;&lt;Applicaiton Compoment&gt;&gt; Moteur de tarification</a></td>
+											<td><a href="../elements/id-3f88d025d07b49bebf473b5f5d1a92f3.html" target="element"> Calcul Tarif</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a7a82c360d334c2c955b11f59fbc1dd9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-39548c23ba104824bdd0679bac6beea1.html" target="element"> &lt;&lt;Application Service&gt;&gt; Service de r&#233;servation</a></td>
+											<td><a href="../elements/id-3f88d025d07b49bebf473b5f5d1a92f3.html" target="element"> Calcul Tarif</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
