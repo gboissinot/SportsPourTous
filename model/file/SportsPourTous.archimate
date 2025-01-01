@@ -7,13 +7,13 @@
     <element xsi:type="archimate:ValueStream" name="Paiement" id="id-a3554730cfc0449087681ca4d5cbb32f"/>
     <element xsi:type="archimate:ValueStream" name="Support" id="id-28deda254b124ec89affd5370fbbdf84"/>
     <element xsi:type="archimate:ValueStream" name="Digitaliser la réservation d’activités sportives" id="id-53108e1809a84709b8b4e4bde7c8137d"/>
-    <element xsi:type="archimate:Capability" name="Planification" id="id-883833b0c9f242bd8e1867c1ea5d1baf"/>
-    <element xsi:type="archimate:Capability" name="Réservation" id="id-9cc7aa9f35ff492ba1daf4b4f77778f2"/>
-    <element xsi:type="archimate:Capability" name="Paiement" id="id-f5be7ca6b76b4a819a1a608dadb3d6ba"/>
-    <element xsi:type="archimate:Capability" name="Call center" id="id-fd74912c165b45698b332b6f2446a70f"/>
-    <element xsi:type="archimate:Capability" name="Paiement en ligne" id="id-021f049b69894d6fa255b86ca68d78ad"/>
-    <element xsi:type="archimate:Capability" name="Facturation" id="id-714469b28e174d02ade157d20c20afeb"/>
-    <element xsi:type="archimate:Capability" name="Gestion des partenaires sportifs" id="id-b480647ad4b840f6839cb8bfcf2b7757"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Planification" id="id-883833b0c9f242bd8e1867c1ea5d1baf"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Réservation" id="id-9cc7aa9f35ff492ba1daf4b4f77778f2"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Paiement" id="id-f5be7ca6b76b4a819a1a608dadb3d6ba"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Call center" id="id-fd74912c165b45698b332b6f2446a70f"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Paiement en ligne" id="id-021f049b69894d6fa255b86ca68d78ad"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Facturation" id="id-714469b28e174d02ade157d20c20afeb"/>
+    <element xsi:type="archimate:Capability" name="&lt;&lt;Capacity>> Gestion des partenaires sportifs" id="id-b480647ad4b840f6839cb8bfcf2b7757"/>
   </folder>
   <folder name="Business" id="id-203572e3d5364067b12952dff31c81b2" type="business">
     <element xsi:type="archimate:BusinessService" name="&lt;&lt;Business Service>> Service de réservation" id="id-3ff9f6c416da40ab84a23cd07b320add"/>
@@ -39,7 +39,7 @@
     <element xsi:type="archimate:BusinessActor" name="&lt;&lt;Actor>> Guichetier site sportif" id="id-4962a277155445d080d9dba30bff218f"/>
     <element xsi:type="archimate:BusinessProcess" name="&lt;&lt;Business Process>> Gérer la réservation" id="id-abfc33eacf724ef5ae4188a4f7675b03"/>
     <element xsi:type="archimate:BusinessProcess" name="&lt;&lt;Business Process>> Calculer tarif" id="id-f025a68d89344257bce6ea08657e9e84"/>
-    <element xsi:type="archimate:BusinessProcess" name="&lt;&lt;Business Process>> Enregister réservation" id="id-9e8ce00865144384ae9bfeaeecaf9770"/>
+    <element xsi:type="archimate:BusinessProcess" name="&lt;&lt;Business Process>> Enregistrer réservation" id="id-9e8ce00865144384ae9bfeaeecaf9770"/>
     <element xsi:type="archimate:BusinessProcess" name="&lt;&lt;Business Process>> Lister les réservations" id="id-cdbd52bfb4664067bf5d647c9ac6fd35"/>
     <element xsi:type="archimate:BusinessProcess" name="&lt;&lt;Business Process>> Changer une réservation" id="id-5fb4c4cb5df74570a9dc2aff58163f76"/>
     <element xsi:type="archimate:BusinessObject" name="&lt;&lt;Business Object>> Réservation" id="id-758803e8676945469a7c509ababb588a"/>
@@ -51,7 +51,7 @@
     <element xsi:type="archimate:ApplicationService" name="&lt;&lt;Application Service>> Service de réservation" id="id-39548c23ba104824bdd0679bac6beea1"/>
     <element xsi:type="archimate:ApplicationService" name="&lt;&lt;Application Service>> Service de paiement" id="id-fe32cadc32184dbfbdee2084c0b79728"/>
     <element xsi:type="archimate:ApplicationComponent" name="&lt;&lt;Applicaiton Compoment>> Moteur de tarification" id="id-a9b94491584f4f85beeeb5e6fd6a3abf"/>
-    <element xsi:type="archimate:ApplicationComponent" name="&lt;&lt;Applicaiton Compoment>> Réservation" id="id-8e00464887d845dea58167ee2f64e4e1"/>
+    <element xsi:type="archimate:ApplicationComponent" name="&lt;&lt;Application Compoment>> Réservation" id="id-8e00464887d845dea58167ee2f64e4e1"/>
     <element xsi:type="archimate:ApplicationFunction" name="Calcul du tarif" id="id-3f88d025d07b49bebf473b5f5d1a92f3"/>
     <element xsi:type="archimate:DataObject" name="Tarif" id="id-eda78ae42f2f4da59e510368b7fc8642"/>
     <element xsi:type="archimate:DataObject" name="Séance" id="id-2301745ec1e84b1e932ee2a1548ac7c2"/>
@@ -68,7 +68,7 @@
     <element xsi:type="archimate:ApplicationFunction" name="Lister Réservation" id="id-34b80dbab3dc421c87df3dd5bf8e579d"/>
     <element xsi:type="archimate:DataObject" name="&lt;&lt;Application Object>> Réservation" id="id-e636bef986dd4720aa7bdf993532b782"/>
     <element xsi:type="archimate:ApplicationComponent" name="&lt;&lt;Application Component>> Système de paiement" id="id-340cdd4a0eff4046a1520ad2860cbe60"/>
-    <element xsi:type="archimate:ApplicationComponent" name="&lt;&lt;Applicaiton Compoment>> Moteur de recherche" id="id-1f52fb19458d4e23a1509e702778d6f5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="&lt;&lt;Application Compoment>> Moteur de recherche" id="id-1f52fb19458d4e23a1509e702778d6f5"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-c9ff69f17cfe445e8b7a6bdef62cce2a" type="technology"/>
   <folder name="Motivation" id="id-995419d3245943e3b286491ba2ae99ad" type="motivation">
@@ -492,7 +492,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-ad1956cca3694ae9b5bbc311c57e0784" source="id-d039769f066b47b2aa3ccd7334064d9c" target="id-1f8e7fec1b824c06a416c697ad591813" archimateRelationship="id-125ca5c743e44186abb96cf4901aa18f"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c715a740b50b47a3ac02d35d4f55ffbf" source="id-d039769f066b47b2aa3ccd7334064d9c" target="id-e1755179646d46e2bf0cba05647f6a6e" archimateRelationship="id-cdb5a9cce6414b59aa7abeb9e8feb918"/>
         <child xsi:type="archimate:DiagramObject" id="id-1f8e7fec1b824c06a416c697ad591813" targetConnections="id-ad1956cca3694ae9b5bbc311c57e0784" archimateElement="id-021f049b69894d6fa255b86ca68d78ad">
-          <bounds x="24" y="36" width="109" height="49"/>
+          <bounds x="12" y="36" width="133" height="73"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-fbeca7bf2f48448cb13b51e3c83dd302" archimateElement="id-fd74912c165b45698b332b6f2446a70f">
