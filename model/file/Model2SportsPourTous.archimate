@@ -26,7 +26,7 @@
     <element xsi:type="archimate:BusinessService" name="Opérations Client" id="id-1df73a57c1f44c67b23514d7b5f8c067"/>
     <element xsi:type="archimate:BusinessProcess" name="Rechecher un site sportif" id="id-b9c3a91618934bb6b4907b506fc8cdd3"/>
     <element xsi:type="archimate:BusinessInterface" name="Mobile" id="id-18bb25890ab64a84bf3bc9ad686c5c7a"/>
-    <element xsi:type="archimate:BusinessEvent" name="Demande de réseervation" id="id-8e1a880d538646518c31b3f2f78e860e"/>
+    <element xsi:type="archimate:BusinessEvent" name="Demande de réservation" id="id-8e1a880d538646518c31b3f2f78e860e"/>
     <element xsi:type="archimate:BusinessFunction" name="Planification" id="id-9e1e1587a58a4dbb9247c9c6a12ecfc6"/>
     <element xsi:type="archimate:BusinessProcess" name="Payer en ligne" id="id-98ef6d81888f429cbdd0c43aab5c537f"/>
     <element xsi:type="archimate:BusinessProcess" name="Encaisser le paiement au guichet" id="id-c8df1b4829c84ed1ba1acfeb4ae631b3"/>
